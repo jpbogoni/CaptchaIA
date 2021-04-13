@@ -28,6 +28,6 @@ def imagehandler(path_origin, path_finish='set_final'):
 
         #save converted image
         image2.save(f"{path_finish}/{os.path.basename(file)}")
-
+        #glob.delete(f"{path_finish}/aplicado.png")
 
 imagehandler("set","set_final")
